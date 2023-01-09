@@ -35,7 +35,7 @@ Dim h As Integer
 
 
 'looping through all tickers symbols
-For I = 2 To 1000
+For I = 2 To RowRange
     'variables used to compare previous and next variables
     ticker = Cells(I, 1).Value
     volume = Cells(I, 7).Value
